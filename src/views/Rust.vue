@@ -5,6 +5,17 @@ console.log()
 </script>
 
 <template>
+  <el-row>
+    <el-col :span="8">
+      rust
+    </el-col>
+    <el-col :span="8">
+      rust
+    </el-col>
+    <el-col :span="8">
+      rust
+    </el-col>
+  </el-row>
 </template>
 
 <style scoped>

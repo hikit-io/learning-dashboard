@@ -1,21 +1,28 @@
 <script setup lang="ts">
-import Rust from "./views/Rust.vue";
+import Header from './components/Header.vue'
 </script>
 
 <template>
-  <rust></rust>
+  <Header></Header>
+  <router-view v-slot="{Component}">
+    <transition name="slide-fade">
+      <component :is="Component"></component>
+    </transition>
+  </router-view>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
+.slide-fade-enter-active {
+  transition: all 0.3s ease-out;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+
+.slide-fade-leave-active {
+  transition: all 0s cubic-bezier(1, 0.5, 0.8, 1);
 }
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+
+.slide-fade-enter-from,
+.slide-fade-leave-to {
+  transform: translateX(200px);
+  opacity: 0;
 }
 </style>

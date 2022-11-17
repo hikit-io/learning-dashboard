@@ -1,0 +1,38 @@
+{
+  "rust": [
+    {
+      "title": "Rust程序设计语言",
+      "link": "",
+      "desc": "",
+      "tags": [
+        "官方文档"
+      ]
+    },
+    {
+      "title": "Rust Webassembly",
+      "link": "",
+      "desc": "",
+      "tags": [
+        "官方文档"
+      ]
+    }
+  ],
+  "rust-wasm":  [
+    {
+      "title": "Rust wasm-bindgen",
+      "link": "",
+      "desc": "",
+      "tags": [
+        "官方文档"
+      ]
+    },
+    {
+      "title": "Rust Webassembly",
+      "link": "",
+      "desc": "",
+      "tags": [
+        "官方文档"
+      ]
+    }
+  ]
+}

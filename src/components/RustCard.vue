@@ -2,9 +2,13 @@
 
 interface Item {
   title: string,
-  officialLink: string,
+  officialLink?: string,
   desc: string,
-  tags: string[]
+  tags: string[],
+  links?: {
+    name: string,
+    link: string
+  }[]
 }
 
 const props = defineProps<{
@@ -21,19 +25,19 @@ const props = defineProps<{
       <div class="title">{{ props.data.title }}</div>
       <span style="display: block;font-size: 0.9em;">{{ props.data.desc }}</span>
       <el-tag v-for="tag in props.data.tags">{{ tag }}</el-tag>
-      <el-space>
-        <el-link :href="props.data.officialLink" type="primary">官方文档</el-link>
-        <el-link :href="props.data.officialLink" type="primary">官方中文文档</el-link>
+      <el-space :wrap="true">
+        <el-link v-for="link in props.data.links" :href="link.link" type="primary" target="_blank">{{ link.name }}</el-link>
       </el-space>
     </div>
   </el-card>
 </template>
 
 <style scoped>
-.external{
+.external {
   /*display: flex;*/
 }
-.title{
+
+.title {
   font-size: 1em;
   font-weight: bold;
   line-height: 2em;

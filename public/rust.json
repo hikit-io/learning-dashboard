@@ -6,29 +6,45 @@
         "title": "Rust程序设计语言",
         "officialLink": "",
         "desc": "",
-        "tags": [
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://doc.rust-lang.org/book/"
+          },
+          {
+            "name": "中文文档",
+            "link": "https://kaisery.github.io/trpl-zh-cn/"
+          }
         ]
       },
       {
         "title": "Rust Webassembly",
         "officialLink": "",
         "desc": "",
-        "tags": [
-        ]
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://rustwasm.github.io/docs/book/"
+          },
+          {
+            "name": "中文文档",
+            "link": "https://llever.com/rustwasm-book/"
+          }
+        ],
+        "tags": []
       },
       {
-        "title": "Rust权威指南",
+        "title": "Rust语言圣经",
         "officialLink": "",
         "desc": "",
-        "tags": [
-        ]
-      },
-      {
-        "title": "Rust圣经",
-        "officialLink": "",
-        "desc": "",
-        "tags": [
-        ]
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://course.rs/about-book.html"
+          }
+        ],
+        "tags": []
       }
     ]
   },
@@ -39,14 +55,24 @@
         "title": "wasm-bindgen",
         "officialLink": "",
         "desc": "用于rust wasm的绑定库。",
-        "tags": [
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://rustwasm.github.io/wasm-bindgen/web-sys/inheritance.html"
+          }
         ]
       },
       {
         "title": "js-sys",
         "officialLink": "",
         "desc": "wasm js 类型绑定库。",
-        "tags": [
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://rustwasm.github.io/wasm-bindgen/web-sys/inheritance.html"
+          }
         ]
       }
     ]
@@ -58,20 +84,45 @@
         "title": "serde",
         "officialLink": "",
         "desc": "序列化和反序列化。",
-        "tags": [
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://serde.rs"
+          },
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/serde"
+          }
         ]
       },
       {
         "title": "reqwest",
         "officialLink": "",
         "desc": "Http客户端。",
-        "tags": []
+        "tags": [],
+        "links": [
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/reqwest"
+          }
+        ]
       },
       {
         "title": "tokio",
         "officialLink": "",
         "desc": "最常用的异步编程库。",
-        "tags": []
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://tokio.rs/tokio/tutorial"
+          },
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/reqwest"
+          }
+        ]
       }
     ]
   },
@@ -82,14 +133,41 @@
         "title": "bevy",
         "officialLink": "",
         "desc": "Ecs游戏引擎。",
-        "tags": [
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://bevyengine.org/learn/"
+          },
+          {
+            "name": "非官方指南EN",
+            "link": "https://bevy-cheatbook.github.io/"
+          },
+          {
+            "name": "非官方指南CN",
+            "link": "https://yiviv.com/bevy-cheatbook/"
+          },
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/bevy"
+          }
         ]
       },
       {
         "title": "bevy-rapier",
         "officialLink": "",
         "desc": "用于bevy引擎的物理引擎。",
-        "tags": []
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://rapier.rs/docs/user_guides/bevy_plugin/getting_started_bevy"
+          },
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/bevy-rapier"
+          }
+        ]
       }
     ]
   },
@@ -100,7 +178,17 @@
         "title": "actix-web",
         "officialLink": "",
         "desc": "Web服务器",
-        "tags": []
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://actix.rs/docs/getting-started"
+          },
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/actix-web"
+          }
+        ]
       },
       {
         "title": "axum",

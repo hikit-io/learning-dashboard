@@ -3,7 +3,7 @@ import {useRoute, useRouter} from "vue-router";
 
 const bodyStyle = {
   height: '200px',
-  // width: '100%',
+  // width: '200px',
   textAlign: 'center'
 }
 
@@ -37,16 +37,30 @@ const bookList: {
     link: '/py',
     logo: '/go-logo.svg',
   },
-
+  {
+    name: 'Python',
+    link: '/py',
+    logo: '/go-logo.svg',
+  },
+  {
+    name: 'Python',
+    link: '/py',
+    logo: '/go-logo.svg',
+  },
+  {
+    name: 'Python',
+    link: '/py',
+    logo: '/go-logo.svg',
+  },
 ]
 const {push} = useRouter()
 
 </script>
 
 <template>
-  <el-row justify="space-between">
-    <el-col v-for="item in bookList" :span="4">
-      <el-card class="card" :style="bodyStyle" shadow="hover" @click="push({path:item.link})">
+  <el-row justify="space-between" :gutter="20">
+    <el-col class="col" v-for="item in bookList" :xs="24" :sm="8" :md="8" :lg="4" :xl="4">
+      <el-card class="card" :style="bodyStyle" @click="push({path:item.link})">
         <el-space direction="vertical">
           <el-image class="logo-img" :src="item.logo"></el-image>
           <h3>{{ item.name }}</h3>
@@ -65,5 +79,10 @@ const {push} = useRouter()
 
 .card:hover {
   cursor: pointer;
+  transform: scale(1.1);
+}
+
+.col{
+  margin-bottom: 1em;
 }
 </style>

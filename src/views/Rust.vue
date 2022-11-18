@@ -1,23 +1,23 @@
 <script lang="ts" setup>
-import rustdb from '../../public/rust.json'
+import rust from '../../public/rust.json'
+import RustCard from "../components/RustCard.vue";
 
 console.log()
 </script>
 
 <template>
-  <el-row>
-    <el-col :span="8">
-      rust
-    </el-col>
-    <el-col :span="8">
-      rust
-    </el-col>
-    <el-col :span="8">
-      rust
-    </el-col>
-  </el-row>
+  <template v-for="item in rust">
+    <h3>{{ item.title }}</h3>
+    <el-row :gutter="20">
+      <el-col class="col" v-for="data in item.docs" :xs="12" :sm="8" :md="8" :lg="4" :xl="4">
+        <rust-card :data="data"></rust-card>
+      </el-col>
+    </el-row>
+  </template>
 </template>
 
-<style scoped>
-
+<style lang="less" scoped>
+.col{
+  margin-bottom: 1em;
+}
 </style>

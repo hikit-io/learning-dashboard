@@ -1,38 +1,125 @@
-{
-  "rust": [
-    {
-      "title": "Rust程序设计语言",
-      "link": "",
-      "desc": "",
-      "tags": [
-        "官方文档"
-      ]
-    },
-    {
-      "title": "Rust Webassembly",
-      "link": "",
-      "desc": "",
-      "tags": [
-        "官方文档"
-      ]
-    }
-  ],
-  "rust-wasm":  [
-    {
-      "title": "Rust wasm-bindgen",
-      "link": "",
-      "desc": "",
-      "tags": [
-        "官方文档"
-      ]
-    },
-    {
-      "title": "Rust Webassembly",
-      "link": "",
-      "desc": "",
-      "tags": [
-        "官方文档"
-      ]
-    }
-  ]
-}
+[
+  {
+    "title": "官方文档",
+    "docs": [
+      {
+        "title": "Rust程序设计语言",
+        "officialLink": "",
+        "desc": "",
+        "tags": [
+        ]
+      },
+      {
+        "title": "Rust Webassembly",
+        "officialLink": "",
+        "desc": "",
+        "tags": [
+        ]
+      },
+      {
+        "title": "Rust权威指南",
+        "officialLink": "",
+        "desc": "",
+        "tags": [
+        ]
+      },
+      {
+        "title": "Rust圣经",
+        "officialLink": "",
+        "desc": "",
+        "tags": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Rust Wasm",
+    "docs": [
+      {
+        "title": "wasm-bindgen",
+        "officialLink": "",
+        "desc": "用于rust wasm的绑定库。",
+        "tags": [
+        ]
+      },
+      {
+        "title": "js-sys",
+        "officialLink": "",
+        "desc": "wasm js 类型绑定库。",
+        "tags": [
+        ]
+      }
+    ]
+  },
+  {
+    "title": "常用库",
+    "docs": [
+      {
+        "title": "serde",
+        "officialLink": "",
+        "desc": "序列化和反序列化。",
+        "tags": [
+        ]
+      },
+      {
+        "title": "reqwest",
+        "officialLink": "",
+        "desc": "Http客户端。",
+        "tags": []
+      },
+      {
+        "title": "tokio",
+        "officialLink": "",
+        "desc": "最常用的异步编程库。",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "title": "游戏",
+    "docs": [
+      {
+        "title": "bevy",
+        "officialLink": "",
+        "desc": "Ecs游戏引擎。",
+        "tags": [
+        ]
+      },
+      {
+        "title": "bevy-rapier",
+        "officialLink": "",
+        "desc": "用于bevy引擎的物理引擎。",
+        "tags": []
+      }
+    ]
+  },
+  {
+    "title": "Web开发",
+    "docs": [
+      {
+        "title": "actix-web",
+        "officialLink": "",
+        "desc": "Web服务器",
+        "tags": []
+      },
+      {
+        "title": "axum",
+        "officialLink": "",
+        "desc": "Web服务器",
+        "tags": []
+      },
+      {
+        "title": "rocket",
+        "officialLink": "",
+        "desc": "Web服务器",
+        "tags": []
+      },
+      {
+        "title": "wrap",
+        "officialLink": "",
+        "desc": "Web服务器",
+        "tags": []
+      }
+    ]
+  }
+]

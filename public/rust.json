@@ -1,6 +1,6 @@
 [
   {
-    "title": "官方文档",
+    "title": "文档",
     "docs": [
       {
         "title": "Rust程序设计语言",
@@ -110,8 +110,8 @@
       },
       {
         "title": "tokio",
-        "officialLink": "",
         "desc": "最常用的异步编程库。",
+        "officialLink": "",
         "tags": [],
         "links": [
           {
@@ -120,7 +120,19 @@
           },
           {
             "name": "Crate",
-            "link": "https://docs.rs/reqwest"
+            "link": "https://docs.rs/tokio"
+          }
+        ]
+      },
+      {
+        "title": "tokio-retry",
+        "officialLink": "",
+        "desc": "用于tokio支持退避等算法的异步重试库。",
+        "tags": [],
+        "links": [
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/tokio-retry"
           }
         ]
       }

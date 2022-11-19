@@ -1,12 +1,15 @@
 <script lang="ts" setup>
 
 import ThemeButton from "./ThemeButton.vue";
+import {useRouter} from "vue-router";
+
+const {push} = useRouter()
 </script>
 
 <template>
   <div class="external">
     <el-space>
-      <h2>Learning Dashboard</h2>
+      <h2 class="logo" @click="push({path:'/'})">Learning Dashboard</h2>
       <span>|</span>
       <h5>累死自己，卷死别人。</h5>
     </el-space>
@@ -25,10 +28,13 @@ import ThemeButton from "./ThemeButton.vue";
   //padding: 0 1em;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: row;
   align-items: end;
 }
 
+.logo{
+  cursor: pointer;
+}
 </style>

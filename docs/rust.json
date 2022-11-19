@@ -135,6 +135,17 @@
             "link": "https://docs.rs/tokio-retry"
           }
         ]
+      },
+      {
+        "title": "tracing",
+        "desc": "日志库",
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://tracing.rs/tracing/"
+          }
+        ]
       }
     ]
   },

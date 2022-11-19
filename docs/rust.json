@@ -97,6 +97,18 @@
         ]
       },
       {
+        "title": "serde_json",
+        "officialLink": "",
+        "desc": "序列化和反序列化常用函数。",
+        "tags": [],
+        "links": [
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/serde_json"
+          }
+        ]
+      },
+      {
         "title": "reqwest",
         "officialLink": "",
         "desc": "Http客户端。",

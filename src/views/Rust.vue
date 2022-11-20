@@ -2,7 +2,6 @@
 import rust from '../../public/rust.json'
 import RustCard from "../components/RustCard.vue";
 
-console.log()
 </script>
 
 <template>

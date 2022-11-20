@@ -1,0 +1,29 @@
+[
+  {
+    "title": "文档",
+    "docs": [
+      {
+        "title": "Effective Go",
+        "desc": "",
+        "tags": [],
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://go.dev/doc/effective_go"
+          }
+        ]
+      },
+      {
+        "title": "Go语言圣经",
+        "desc": "",
+        "tags": [],
+        "links": [
+          {
+            "name": "中文文档",
+            "link": "https://golang-china.github.io/gopl-zh/"
+          }
+        ]
+      }
+    ]
+  }
+]

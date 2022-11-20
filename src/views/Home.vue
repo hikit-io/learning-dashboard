@@ -22,43 +22,43 @@ const bookList: {
     link: '/go',
     logo: '/go-logo.svg',
   },
-  {
-    name: 'C/C++',
-    link: '/c',
-    logo: '/go-logo.svg',
-  },
-  {
-    name: 'Python',
-    link: '/py',
-    logo: '/go-logo.svg',
-  },
-  {
-    name: 'Python',
-    link: '/py',
-    logo: '/go-logo.svg',
-  },
-  {
-    name: 'Python',
-    link: '/py',
-    logo: '/go-logo.svg',
-  },
-  {
-    name: 'Python',
-    link: '/py',
-    logo: '/go-logo.svg',
-  },
-  {
-    name: 'Python',
-    link: '/py',
-    logo: '/go-logo.svg',
-  },
+  // {
+  //   name: 'C/C++',
+  //   link: '/c',
+  //   logo: '/go-logo.svg',
+  // },
+  // {
+  //   name: 'Python',
+  //   link: '/py',
+  //   logo: '/go-logo.svg',
+  // },
+  // {
+  //   name: 'Python',
+  //   link: '/py',
+  //   logo: '/go-logo.svg',
+  // },
+  // {
+  //   name: 'Python',
+  //   link: '/py',
+  //   logo: '/go-logo.svg',
+  // },
+  // {
+  //   name: 'Python',
+  //   link: '/py',
+  //   logo: '/go-logo.svg',
+  // },
+  // {
+  //   name: 'Python',
+  //   link: '/py',
+  //   logo: '/go-logo.svg',
+  // },
 ]
 const {push} = useRouter()
 
 </script>
 
 <template>
-  <el-row justify="space-between" :gutter="20">
+  <el-row :gutter="20">
     <el-col class="col" v-for="item in bookList" :xs="24" :sm="8" :md="8" :lg="4" :xl="4">
       <el-card class="card" :style="bodyStyle" @click="push({path:item.link})">
         <el-space direction="vertical">

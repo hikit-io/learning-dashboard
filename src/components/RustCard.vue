@@ -26,7 +26,10 @@ const props = defineProps<{
       <span style="display: block;font-size: 0.9em;">{{ props.data.desc }}</span>
       <el-tag v-for="tag in props.data.tags">{{ tag }}</el-tag>
       <el-space :wrap="true">
-        <el-link v-for="link in props.data.links" :href="link.link" type="primary" target="_blank">{{ link.name }}</el-link>
+        <el-link v-for="link in props.data.links" :href="link.link" type="primary" target="_blank">{{
+            link.name
+          }}
+        </el-link>
       </el-space>
     </div>
   </el-card>

@@ -1,9 +1,11 @@
 <script lang="ts" setup>
-import {useRoute, useRouter} from "vue-router";
+import {useRouter} from "vue-router";
+import article from '../../public/article.json'
+import ArticleLink from "../components/ArticleLink.vue";
+import {computed} from "vue";
 
 const bodyStyle = {
   height: '200px',
-  // width: '200px',
   textAlign: 'center'
 }
 
@@ -55,6 +57,8 @@ const bookList: {
 ]
 const {push} = useRouter()
 
+const articles = computed(() => article)
+
 </script>
 
 <template>
@@ -68,6 +72,13 @@ const {push} = useRouter()
       </el-card>
     </el-col>
   </el-row>
+  <h3>Latest Article</h3>
+  <el-row :gutter="20">
+    <el-col class="col-art" v-for="item in articles" :xs="24" :sm="12" :md="8" :lg="8" :xl="8">
+      <article-link :article="item"></article-link>
+    </el-col>
+  </el-row>
+  <h4 class="footer">@2022 Hikit</h4>
 </template>
 
 
@@ -82,7 +93,18 @@ const {push} = useRouter()
   transform: scale(1.1);
 }
 
-.col{
+.col {
   margin-bottom: 1em;
+}
+
+.col-art {
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding-bottom: 0.5em;;
 }
 </style>

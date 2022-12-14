@@ -63,7 +63,7 @@ const articles = computed(() => article)
 
 <template>
   <el-row :gutter="20">
-    <el-col class="col" v-for="item in bookList" :xs="24" :sm="8" :md="8" :lg="4" :xl="4">
+    <el-col class="col" v-for="item in bookList" :xs="12" :sm="8" :md="8" :lg="4" :xl="4">
       <el-card class="card" :style="bodyStyle" @click="push({path:item.link})">
         <el-space direction="vertical">
           <el-image class="logo-img" :src="item.logo"></el-image>

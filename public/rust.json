@@ -158,6 +158,18 @@
             "link": "https://tracing.rs/tracing/"
           }
         ]
+      },
+      {
+        "title": "sqlx",
+        "officialLink": "",
+        "desc": "数据库处理。",
+        "tags": [],
+        "links": [
+          {
+            "name": "Crate",
+            "link": "https://docs.rs/sqlx"
+          }
+        ]
       }
     ]
   },

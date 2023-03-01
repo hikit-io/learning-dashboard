@@ -45,6 +45,18 @@
           }
         ],
         "tags": []
+      },
+      {
+        "title": "The Rust Unstable Book",
+        "officialLink": "",
+        "desc": "",
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://doc.rust-lang.org/beta/unstable-book"
+          }
+        ],
+        "tags": []
       }
     ]
   },

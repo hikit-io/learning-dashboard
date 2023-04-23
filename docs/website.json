@@ -1,0 +1,22 @@
+[
+  {
+    "title": "常用网站 🚗",
+    "websites": [
+      {
+        "title": "Mac Torrents",
+        "link": "https://www.torrentmac.net/",
+        "desc": "MacOS破解软件下载"
+      },
+      {
+        "title": "Kenney",
+        "link": "https://www.kenney.nl/",
+        "desc": "免费的2D、3D和音频游戏素材"
+      },
+      {
+        "title": "Awesome Wallpapers",
+        "link": "https://wallhaven.cc/",
+        "desc": "电脑壁纸"
+      }
+    ]
+  }
+]

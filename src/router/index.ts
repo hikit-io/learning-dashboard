@@ -34,6 +34,11 @@ export const router = createRouter({
             path: '/py',
             component: () => import('../views/Python.vue')
         },
+        {
+            name: 'Website',
+            path: '/website',
+            component: () => import('../views/Website.vue')
+        }
     ]
 })
 

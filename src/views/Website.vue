@@ -20,5 +20,8 @@ const websites = computed(() => website)
 </template>
 
 <style scoped>
+.col-art {
+    margin-bottom: 0.5em;
+}
 
 </style>

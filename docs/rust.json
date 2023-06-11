@@ -57,6 +57,18 @@
           }
         ],
         "tags": []
+      },
+      {
+        "title": "概述 - Rust 编码规范 V 1.0 beta",
+        "officialLink": "",
+        "desc": "",
+        "links": [
+          {
+            "name": "官方文档",
+            "link": "https://rust-coding-guidelines.github.io/rust-coding-guidelines-zh/overview.html"
+          }
+        ],
+        "tags": []
       }
     ]
   },
